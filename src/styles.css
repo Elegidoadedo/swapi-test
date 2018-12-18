@@ -4,3 +4,30 @@ body {
   background: black;
   color: yellow;
 }
+
+/* list */
+
+.people-list{
+  margin-top: 20%;
+  font-size: 1.2em;
+}
+.people-list ul{
+  list-style-type: none
+}
+
+.people-list button{
+  background-color: white;
+  color: black;
+  padding: 2%;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+
+/* buttons */
+
+.flex{
+  display:flex;
+  align-content: center;
+  justify-content: space-around;
+}
